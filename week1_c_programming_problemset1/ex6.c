@@ -8,7 +8,7 @@ int main() {
     if (r==0) {
         printf("Number is even");
     } else{
-        printf("Numver is odd");
+        printf("Number is odd");
     }
     return 0;
 
