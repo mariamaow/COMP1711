@@ -11,7 +11,7 @@ int main() {
   double interestrateasofone = 1+interestrate;
   double totaltime;
   int i;
-  for (i=2;i=time;i++) {
+  for (i=2;i<=time;i++) {
     interestrateasofone = interestrateasofone*1+interestrate;
   }
   double totalinterest = principal*(interestrateasofone);

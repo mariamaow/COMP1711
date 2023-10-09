@@ -7,10 +7,10 @@ int main() {
     scanf("%d", &n);
     int i;
     int fac = 1;
-    for (i=2;i=n;i++) {
+    for (i=2;i<=n;i++) {
         fac *= i;
     }
-    //this isnt printing after looping 
+  
     printf("Factorial is: %d\n", fac);
     return 0;
 }
